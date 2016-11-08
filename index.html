@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework-03</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+<header>
+    <h1>Урок "Формы": теги и их атрибуты</h1>
+    <h2>Расскажите немного о себе</h2>
+    <p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
+</header>
+
+<fieldset>
+    <legend><b>Коротко о себе</b></legend>
+        Имя:<input type="text">
+    <br>
+    <br>
+        Фамилия:<input type="text">
+    <br>
+    <br>
+        Пол:
+    <input type="radio" name="gender" value="femele"> мужской
+    <input type="radio" name="gender" value="femele"> женский
+    <br>
+    <br>
+        Возраст:<input type="text">
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Подробнее о себе</b></legend>
+    <input type="radio" name="gender" value="femele"> Молодой человек
+    <br>
+    <input type="radio" name="gender" value="femele"> Девушка
+    <br>
+    <input type="text"> Дата рождения
+    <br>
+    <input type="text"> Семейное положение
+    <br>
+    <input type="text"> Социальный статус
+    <br>
+    <input type="text"> Место жительства
+<br>
+    <br>
+    <b>Что вы обычно делаете на выходных?</b>
+    <br>
+    <br>
+    <input type="checkbox"> Сплю
+    <br>
+    <input type="checkbox"> Гуляю с друзьями
+    <br>
+    <input type="checkbox"> Хожу на рыбалку
+    <br>
+    <input type="checkbox"> Играю в игры
+    <br>
+    <br>
+    <b>Рассказать о формах в киге, посвященной HTML:</b>
+    <br>
+    <br>
+    <select name="book_name">
+        <option value="book_name1">451° по Фаренгейту</option>
+        <option value="book_name2">Шантарам</option>
+        <option value="book_name3">Портрет Дориана Грея</option>
+        <option value="book_name4">Марсианин</option>
+    </select>
+    <br>
+    <br>
+    <b>Сколько книг вы прочитали за свою жизнь:</b>
+    <br>
+    <br>
+    <input type="text"> 0-10
+    <br>
+    <input type="text"> 11-20
+    <br>
+    <input type="text"> 21-50
+    <br>
+    <input type="text"> 50+
+    <br>
+    <p><b>Ваши коментарии:</b></p>
+    <p><textarea rows="10" cols="45" name="Text"></textarea></p>
+
+    <select size="3" multiple="" name="pos">
+        <option value="pos_1">Первая позиция</option>
+        <option selected="" value="pos_2">Вторая позиция</option>
+        <option value="pos_3">Третья позиция</option>
+    </select>
+
+
+</fieldset>
+<br>
+
+<fieldset>
+    <legend><b>И в заключени</b></legend>
+    <input type="text" name="show_text" value="Это поле было введено до вас" size="30" disabled="">
+    <br>
+    <p><b>Email:</b></p>
+    <input type="text">
+    <br>
+    <p><b>Хотите подписаться на самую модную рассылку спама?</b> <br> <em>Выберите категорию</em></p>
+    <input type="checkbox"> Оборудование
+    <br>
+    <input type="checkbox"> Как приготовить обеды
+    <br>
+    <input type="checkbox"> Заработай миллион за два дня!
+    <br>
+
+    <p> <b>На сколько сложная задача:</b></p>
+    <input type="radio"> Совсем нет
+   <br>
+    <input type="radio"> Так себе
+    <br>
+    <input type="radio"> Еле справились
+    <br>
+</fieldset>
+<br>
+<p><input type="submit" value="Отправить"></p>
+    </div>
+</body>
+</html>
